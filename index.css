@@ -18,6 +18,22 @@ header p {
     font-weight: 400;
 }
 
+header button {
+    background: none;
+    border-style: solid;
+    border-radius: .3rem;
+    cursor: pointer;
+    border-color: #1EA7CB;
+    height: 100%;
+}
+
+header button p {
+    font-family: 'lato';
+    font-size: 18px;
+    color: #1EA7CB;
+    margin: 1vw;
+}
+
 body {
     background-color: #F5F5F5;
     margin-left: 10vw;
@@ -33,8 +49,10 @@ body {
 }
 
 .info h2 {
-    margin: 2rem;
+ text-align: center;
+    margin: 2vw;
 }
+
 
 div.details {
     background-color: #F9F9F9;
@@ -58,18 +76,7 @@ div.details {
     transform: translateX(-.2rem) translateY(-.2rem);
 }
 
-header button {
-    background-color: none;
-    border-style: solid;
-    cursor: pointer;
-    border-color: #1EA7CB;
-}
 
-header button p {
-    font-family: 'lato';
-    font-size: 18px;
-    color: #1EA7CB;
-}
 
 .view-bttn {
     background-color: #1EA7CB;
@@ -107,5 +114,4 @@ h2 {
     color: #595959;
     font-family: 'lato';
     font-weight: 200;
-    display: flex;
 }
