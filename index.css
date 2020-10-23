@@ -9,13 +9,15 @@
 }
 
 header {
+    text-align: center;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2vw;
+    margin-bottom: 4vw;
+    margin-top: 2vw;
 }
 
 header p {
-    font-weight: 400;
+    font-weight: 350;
 }
 
 header button {
@@ -33,6 +35,7 @@ header button p {
     color: #1EA7CB;
     margin: 1vw;
 }
+
 
 body {
     background-color: #F5F5F5;
@@ -58,14 +61,15 @@ div.details {
     background-color: #F9F9F9;
     display: flex;
     justify-content: space-between;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 .details span {
     display: block;
     text-align: center;
     font-weight: 350;
+    padding-top: .3rem;
 }
 
 
@@ -108,6 +112,7 @@ h1 {
     font-family: 'lato';
     font-weight: 200;
     font-size: 40px;
+    margin: 0;
 }
 
 h2 {
