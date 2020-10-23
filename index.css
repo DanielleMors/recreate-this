@@ -1,0 +1,115 @@
+/*//CSS that applies to browsers that support grid*/
+@supports (display: grid) {
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 2rem;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+
+header p {
+    font-weight: 400;
+}
+
+body {
+    background-color: #F5F5F5;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.post {
+    border-style: solid;
+    border-width: .1.5rem;
+    border-color: #D9D9D9;
+    border-radius: .2rem;
+    background-color: white;
+}
+
+.info h2 {
+    margin: 2rem;
+}
+
+div.details {
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.details span {
+    display: block;
+    text-align: center;
+    font-weight: 350;
+}
+
+
+
+.image {
+    border-radius: .2rem .2rem 0 0;
+    width: calc(100% + 0.4rem);
+    transform: translateX(-.2rem) translateY(-.2rem);
+}
+
+/*
+.add-button {
+    background-color: #F5F5F5;
+    border-radius: .2rem;
+    border-style: solid;
+    border-color: #1EA7CB;
+    color: white;
+    cursor: pointer;
+    width: auto;
+    height: 3vw;
+}
+
+.add-button p {
+    color: #1EA7CB;
+    font-size: 20px;
+}
+*/
+
+.view-bttn {
+    background-color: #1EA7CB;
+    border-radius: 0 0 .2rem .2rem;
+    border-style: hidden;
+    color: white;
+    cursor: pointer;
+    width: calc(100% + 0.4rem);
+    transform: translate(-.2rem, .2rem);
+}
+
+.view-bttn p {
+    color: white;
+    font-family: 'lato';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+p {
+    font-family: 'lato';
+    color: #595959;
+    font-weight: 200;
+}
+
+h1 {
+    color: #252525;
+    font-family: 'lato';
+    font-weight: 200;
+    font-size: 40px;
+}
+
+h2 {
+    color: #595959;
+    font-family: 'lato';
+    font-weight: 200;
+    display: flex;
+}
