@@ -16,6 +16,12 @@ function showPost(post) {
     const template = document.querySelector("template#postTemplate").content;
     const clone = template.cloneNode(true);
 
+
+//
+//    clone.querySelector(".image").setAttribute("src", `http://discoverdani.com/T9/wordpress/?post_type=house&#038;p=178`);
+//
+//
+
     clone.querySelector("h2").textContent = post.title.rendered;
     clone.querySelector(".bed").textContent = post.bed;
     clone.querySelector(".bath").textContent = post.bath;

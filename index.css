@@ -58,23 +58,18 @@ div.details {
     transform: translateX(-.2rem) translateY(-.2rem);
 }
 
-/*
-.add-button {
-    background-color: #F5F5F5;
-    border-radius: .2rem;
+header button {
+    background-color: none;
     border-style: solid;
-    border-color: #1EA7CB;
-    color: white;
     cursor: pointer;
-    width: auto;
-    height: 3vw;
+    border-color: #1EA7CB;
 }
 
-.add-button p {
+header button p {
+    font-family: 'lato';
+    font-size: 18px;
     color: #1EA7CB;
-    font-size: 20px;
 }
-*/
 
 .view-bttn {
     background-color: #1EA7CB;
@@ -98,6 +93,7 @@ p {
     font-family: 'lato';
     color: #595959;
     font-weight: 200;
+
 }
 
 h1 {
